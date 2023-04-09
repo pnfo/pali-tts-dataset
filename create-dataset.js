@@ -67,7 +67,9 @@ Object.entries(fileMap).forEach(([textFile, labelFiles]) => {
         text = text.replace(/[-–—]+/g, '-')
         text = text.replace(/\.+/g, '.')
         text = text.replace(/\d+[-\.,]?/g, '') // numbers mostly at the beginning of entries
-        text = text.replace(/\n/g, e.type == 'gatha' ? ' x ' : ' # ') // newlines cause issues in displaying text 
+        // if a speaker encoding is used to denote various chanting styles, remove the type checks below
+        text = text.replace(/\n/g, e.type == 'gatha' ? ' x ' : ' # ') // newlines cause issues in displaying text
+        //if (e.type == 'heading') text = text + '~' // headings are long chanted at the end. use ~ for longing
         e = Object.assign(e, normalizePrompt(text))
         e.words = splitWords(e.sinhala)
     })
@@ -91,11 +93,12 @@ usableEntries.forEach(e => {
     e.score = getMedianWordFrequency(e.words)
     e.lengthRatio = e.label.length / e.roman.replace(/h/g, '').length
 })
-const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRatio).slice(10, -10)
+const outliersToRemove = 100
+const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRatio).slice(outliersToRemove, -outliersToRemove)
 outlierRemoved.sort((a, b) => a.score - b.score) // ascending order of the score
 const outlierLength = outlierRemoved.reduce((acc, e) => acc + e.label.length, 0)
 
-const requiredLength = 2 * 3600  // collect until this many hours are reached
+const requiredLength = 10 * 3600  // collect until this many hours are reached
 let collectedLength = 0
 const usedEntries = outlierRemoved.filter((e, i) => {
     collectedLength += e.label.length
@@ -105,11 +108,12 @@ const usedEntries = outlierRemoved.filter((e, i) => {
 usedEntries.sort((a, b) => a.lengthRatio - b.lengthRatio)
 
 // extract content from audio files
-const outputFolder = 'wavs', outputOptions = 'norm -1 rate 22050' // normalize and set rate (original flac is 44100)
+// trim all silences more than 0.75 seconds, normalize and set rate (original flac is 44100)
+const outputFolder = 'wavs', outputOptions = 'silence -l 1 0.1 1% -1 0.75 1% reverse silence 1 0.1 1% reverse rate 22050 norm -1' //silence -l 1 0.1 1% -1 0.75 1%
 fs.rmSync(outputFolder, {recursive: true})
 fs.mkdirSync(outputFolder)
-// Define the function that will extract a single segment
-const extractSegment = (e, callback) => {
+
+const extractSegment = (e, callback) => { // Define the function that will extract a single segment
     const inputFile = path.join(audioInputFolder, e.label.file + '.flac')
     const command = `sox "${inputFile}" "${path.join(outputFolder, e.wavFile + '.wav')}" trim ${e.label.start} ${e.label.length.toFixed(2)} ${outputOptions}`;
     exec(command, callback);
@@ -128,6 +132,7 @@ const charCounts = {}, typeCounts = {}
 usedEntries.forEach(e => {
     for (let char of e.roman) incCounter(charCounts, char)
     incCounter(typeCounts, e.type)
+    e.speaker = (e.type == 'gatha') ? 'gatha' : 'default'
 })
 const usedLength = usedEntries.reduce((acc, e) => acc + e.label.length, 0)
 
@@ -135,7 +140,7 @@ fs.writeFileSync('char-counts.tsv', Object.entries(charCounts)
     .sort((a, b) => b[1] - a[1])
     .map(([char, count]) => char + '\t' + count)
     .join('\n'), 'utf-8')
-fs.writeFileSync('metadata.csv', usedEntries.map(e => [e.wavFile, e.sinhala, e.roman].join('|')).join('\n'), 'utf8')
+fs.writeFileSync('metadata.csv', usedEntries.map(e => [e.wavFile, e.sinhala, e.roman, e.speaker].join('|')).join('\n'), 'utf8')
 //fs.writeFileSync('word-counts.tsv', Object.entries(wordCounts).map(([word, count]) => word + '\t' + count).join('\n'), 'utf-8')
 fs.writeFileSync('text-entries.json', jsb(usedEntries, null, '\t', 100), 'utf-8')
 

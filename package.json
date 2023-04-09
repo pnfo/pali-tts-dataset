@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@pnfo/singlish-search": "^1.2.0",
+    "async": "^3.2.4",
+    "json-beautify": "^1.1.1"
+  },
+  "type": "module"
+}
