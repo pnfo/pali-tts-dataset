@@ -10,7 +10,7 @@ import {sinhalaToRomanConvert} from '@pnfo/singlish-search/roman_convert.js'
 const labelInputFolder = '/Users/janaka/node/tipitaka.lk/public/audio', // also in '/Volumes/1TB/audio/final uploaded'
     textInputFolder = '/Users/janaka/node/tipitaka.lk/public/static/text',
     audioInputFolder = '/Volumes/1TB/audio/silence-added'
-const minClipLength = 3, maxClipLength = 18
+const minClipLength = 3, maxClipLength = 25
 
 const fileMap = JSON.parse(fs.readFileSync(path.join(labelInputFolder, 'file-map.json'), 'utf-8'))
 
@@ -22,8 +22,9 @@ function loadLabelFile(file) {
 }
 
 function normalizePrompt(ptext) {
-    ptext = ptext.replace(/[\[\{]/g, '(') // only the normal bracket is supported
-    ptext = ptext.replace(/[\]\}]/g, ')')
+    ptext = ptext.replace(/[\[\{\(]\s?/g, '(') // only the normal bracket is supported
+    ptext = ptext.replace(/\s?[\]\}\)]/g, ')')
+    ptext = ptext.replace(/\(\s?\)/g, ' ') // remove empty brackets
     ptext = ptext.replace(/["“”‘’]/g, "'") // all quotes to single straight quotes
     ptext = ptext.replace(/\s+/g, ' ').trim() // collapse whitespace
     const sinhala = ptext.replace(/\u200d/g, '') // remove yansa, rakar, bandi
@@ -93,12 +94,12 @@ usableEntries.forEach(e => {
     e.score = getMedianWordFrequency(e.words)
     e.lengthRatio = e.label.length / e.roman.replace(/h/g, '').length
 })
-const outliersToRemove = 100
+const outliersToRemove = 200
 const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRatio).slice(outliersToRemove, -outliersToRemove)
 outlierRemoved.sort((a, b) => a.score - b.score) // ascending order of the score
 const outlierLength = outlierRemoved.reduce((acc, e) => acc + e.label.length, 0)
 
-const requiredLength = 10 * 3600  // collect until this many hours are reached
+const requiredLength = 20 * 3600  // collect until this many hours are reached
 let collectedLength = 0
 const usedEntries = outlierRemoved.filter((e, i) => {
     collectedLength += e.label.length
@@ -128,15 +129,16 @@ async.mapLimit(usedEntries, 7, (e, mapCallback) => {
 
 
 // compute character and type counts
-const charCounts = {}, typeCounts = {}
+const charCountsRoman = {}, charCountsSinhala = {}, typeCounts = {}
 usedEntries.forEach(e => {
-    for (let char of e.roman) incCounter(charCounts, char)
+    for (let char of e.roman) incCounter(charCountsRoman, char)
+    for (let char of e.sinhala) incCounter(charCountsSinhala, char)
     incCounter(typeCounts, e.type)
     e.speaker = (e.type == 'gatha') ? 'gatha' : 'default'
 })
 const usedLength = usedEntries.reduce((acc, e) => acc + e.label.length, 0)
 
-fs.writeFileSync('char-counts.tsv', Object.entries(charCounts)
+fs.writeFileSync('char-counts.tsv', Object.entries(charCountsRoman)
     .sort((a, b) => b[1] - a[1])
     .map(([char, count]) => char + '\t' + count)
     .join('\n'), 'utf-8')
@@ -149,4 +151,6 @@ log('Total', totalLabels, totalLength)
 log('Usable', outlierRemoved.length, outlierLength)
 log('Used', usedEntries.length, usedLength)
 console.log(typeCounts)
+console.log(`characters="${Object.keys(charCountsRoman).sort().join('')}"`)
+console.log(`characters="${Object.keys(charCountsSinhala).sort().join('')}"`)
 console.log(`create dataset using "tar -cjf pali_dataset.tar.bz2 wavs metadata.csv"`)
