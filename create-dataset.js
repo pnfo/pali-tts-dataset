@@ -5,7 +5,7 @@ import path from 'path'
 import async from 'async'
 import {exec} from 'child_process'
 import jsb from 'json-beautify'
-import {sinhalaToRomanConvert} from '@pnfo/singlish-search/roman_convert.js'
+import { normalizePrompt, normalizeText } from './common_functions'
 
 const labelInputFolder = '/Users/janaka/node/tipitaka.lk/public/audio', // also in '/Volumes/1TB/audio/final uploaded'
     textInputFolder = '/Users/janaka/node/tipitaka.lk/public/static/text',
@@ -23,16 +23,6 @@ function loadLabelFile(file) {
         .map(([start, end, num]) => ({start, end, length: end - start, file, num}))
 }
 
-function normalizePrompt(ptext) {
-    ptext = ptext.replace(/[\[\{\(]\s?/g, '(') // only the normal bracket is supported
-    ptext = ptext.replace(/\s?[\]\}\)]/g, ')')
-    ptext = ptext.replace(/\(\s?\)/g, ' ') // remove empty brackets
-    ptext = ptext.replace(/["“”‘’]/g, "'") // all quotes to single straight quotes
-    ptext = ptext.replace(/\s+/g, ' ').trim() // collapse whitespace
-    const sinhala = ptext.replace(/\u200d/g, '') // remove yansa, rakar, bandi
-    const roman = sinhalaToRomanConvert(sinhala)
-    return {sinhala, roman}
-}
 function splitWords(sinhala) { // anything outside sinhala range deleted
     return sinhala.replace(/[^\u0D80-\u0DFF ]/g, '').split(' ').filter(w => w.length)
 }
@@ -66,15 +56,7 @@ Object.entries(fileMap).forEach(([textFile, labelFiles]) => {
     // get only the labels of length within desired range
     let usable = labeled.filter((e, i) => e.label && e.label.length > minClipLength && e.label.length <= maxClipLength)
     usable.forEach(e => {
-        let text = e.text.replace(/\*\*|__|\{\S+?\}/g, '') // remove bold, underline and footnotes
-        text = text.replace(/ ?-පෙ-/g, '.') // -pe- is not pronounced
-        text = text.replace(/^-පෙ-/g, '') // beginning with -pe- removed
-        text = text.replace(/[-–—]+/g, '-')
-        text = text.replace(/\.+/g, '.')
-        text = text.replace(/\d+[-\.,]?/g, '') // numbers mostly at the beginning of entries
-        // if a speaker encoding is used to denote various chanting styles, remove the type checks below
-        text = text.replace(/\n/g, e.type == 'gatha' ? ' x ' : ' # ') // newlines cause issues in displaying text
-        //if (e.type == 'heading') text = text + '~' // headings are long chanted at the end. use ~ for longing
+        const text = normalizeText(e.text, e.type)
         e = Object.assign(e, normalizePrompt(text))
         e.words = splitWords(e.sinhala)
     })

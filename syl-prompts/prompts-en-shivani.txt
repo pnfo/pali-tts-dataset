@@ -1,0 +1,905 @@
+1	gatha	kn-jat-22-6
+mā tvaṁ bhāyi mahārāja mā tvaṁ bhāyi rathesabha,
+ahaṁ taṁ mocayissāmi pakkhiṁ baddhaṁva pañjare.
+
+2	gatha	kn-jat-22-6
+sabbañce maccā sadhanā sabhogā
+ādīpitaṁ dārutiṇena missaṁ,
+dahaṁ na tappe asamattha tejo
+ko taṁ subhikkhaṁ dirasañña kuriyā.
+
+3	gatha	kn-jat-22-6
+bahujjano pasannosi disvā paṇḍitamāgate,
+paṇḍitamhi anuppatte celukkhepo avattathāti.
+
+4	gatha	kn-jat-22-6
+anariyarūpo puriso janinda,
+asammodako thaddho asabbhirūpo
+yathā mūgo ca badhiro ca na kiñcatthaṁ abhāsatha.
+
+5	paragraph	ap-pat-3
+sahajātavārepi pañhāvārepi sabbattha ekaṁ, upādinnaṁ abyākataṁ dhammaṁ paṭicca upādinno abyākato dhammo uppajjati hetupaccayā, tīṇi.
+
+6	paragraph	ap-pat-3
+upādāno akusalo dhammo upādānassa akusalassa dhammassa hetupaccayena paccayo.
+
+7	paragraph	ap-pat-3
+na hetuṁ dassanena pahātabba hetukaṁ dhammaṁ paṭicca na hetu dassanena pahātabba hetuko dhammo uppajjati hetu paccayā, tīṇi.
+
+8	paragraph	ap-pat-3
+hetu sukhāya vedanāya sampayutto dhammo hetussa sukhāya vedanāya sampayuttassa dhammassa ārammaṇapaccayena paccayo, tīṇi.
+
+9	paragraph	dn-2
+anujānātu bhante bhagavā bhikkhū: ‘caratha bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya, atthāya hitāya sukhāya devamanussānaṁ.
+
+10	gatha	dn-2
+uṭṭhehi vīra vijitasaṅgāma satthavāha aṇana vicara loke
+desassu bhagavā dhammaṁ aññātāro bhavissantī”ti.
+
+11	paragraph	dn-2
+kakusandhassa bhikkhave, bhagavato arahato sammāsambuddhassa vidhurasañjīvaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ.
+
+12	paragraph	dn-2
+“viññāṇaṁ ca hi ānanda, mātukucchiṁ okkamitvā vokkamissatha, api nu kho nāmarūpaṁ itthattāya abhinibbattissathāti”?
+
+13	paragraph	mn-3-1
+ayamevettha attho: vaṇoti kho sunakkhatta, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ.
+
+14	paragraph	mn-3-1
+so uddhaccakukkuccaṁyeva antaraṁ karitvā jhāyati pajjhāyati nijjhāyati apajjhāyati.
+
+15	paragraph	mn-3-1
+yassa panassa dukkhanidānassa ajjhu pekkhato upekkhaṁ bhāvayato virāgo hoti.
+
+16	paragraph	mn-3-1
+magge vāpi ānanda, paṭipadāya vā saṅghe vivādo uppajjamāno uppajjeyya.
+
+17	gatha	kn-snp
+sabbesu bhūtesu nidhāya daṇḍaṁ
+aviheṭhayaṁ aññatarampi tesaṁ,
+na puttamiccheyya kuto sahāyaṁ
+eko care khaggavisāṇakappo.
+
+18	gatha	kn-snp
+te va pāpesu kammesu abhiṇhamupadissare,
+aṭṭheva dhamme gārayhā samparāye ca duggatiṁ,
+na te jāti nivāreti duggaccā garahāya vā.
+
+19	gatha	kn-snp
+na so rajjati kāmesu (iti sātāgiro yakkho)
+atho cittaṁ anāvilaṁ,
+sabbamohaṁ atikkanto
+buddho dhammesu cakkhumā.
+
+20	gatha	kn-snp
+puttañca dāraṁ pitarañca mātaraṁ
+dhanāni dhaññāni ca bandhavāni,
+hitvāna kāmāni yathodhikāni
+eko care khaggavisāṇakappo.
+
+21	paragraph	sn-5-7
+sace ākaṅkhati paṭikkūle ca appaṭikkūle ca appaṭikkūlasaññī vihareyyanti appaṭikkūlasaññī tattha viharati.
+
+22	paragraph	sn-5-7
+evaṁ bhāvitā kho bhikkhave, cattāro iddhipādā evaṁ bahulīkatā mahapphalā honti mahānisaṁsā.
+
+23	paragraph	sn-5-7
+yasmiṁ samaye ānanda, bhikkhu vedanāsu. citte. dhammesu dhammānupassī viharati upaṭṭhitā tassa tasmiṁ samaye sati hoti asammuṭṭhā.
+
+24	paragraph	sn-5-7
+imesu kho me āvuso, catūsu satipaṭṭhānesu supatiṭṭhitacittassa viharato uppannā sārīrikā dukkhā vedanā cittaṁ na pariyādāya tiṭṭhantīti.
+
+25	gatha	kn-ap-1-33
+devabhūtassa santassa athāpi mānusassa vā,
+samantā vyāmato mayhaṁ phusitaṁva pavassati.
+
+26	gatha	kn-ap-1-33
+kilesā jhāpitā mayhaṁ bhavā sabbe samūhatā,
+sabbāsavā parikkhīṇā natthidāni punabbhavo.
+
+27	gatha	kn-ap-1-33
+timbarūsakavaṇṇābho appameyyo anūpamo,
+rūpenāsadiso buddho svātanāya nimantito.
+
+28	gatha	kn-ap-1-33
+paṭisambhidā catasso vimokkhāpi ca aṭṭhime,
+chaḷabhiññā sacchikatā kataṁ buddhassa sāsanaṁ.
+
+29	paragraph	ap-kvu-1-2
+anu. ṭha: hañci anāgāmissa adhimattā bojjhaṅgabhāvanā parihāyati anāgāmī anāgāmiphalā,
+
+30	paragraph	ap-kvu-1-2
+pa. vi: aṇusahagataṁ kāmarāgaṁ jahati, aṇusahagataṁ byāpādaṁ tadekaṭṭhe ca kilesa ekadese jahatī’ti.
+
+31	paragraph	ap-kvu-1-2
+anu: yattha sammāsambuddhā uppajjanti tatthe’va brahmacariyavāso, yattha sammāsambuddhā nūppajjanti natthi tattha brahmacariyavāso’ti.
+
+32	paragraph	ap-kvu-1-2
+pa. anu: arahā arahattā parihāyamāno bhabbo catūhi phalehi parihāyitunti.
+
+33	paragraph	ap-kvu-19
+tamenaṁ bhikkhave nirayapālā uddhapādaṁ adhosiraṁ gahetvā tattāya lohakumbhiyā pakkhipanti ādittāya sampajjalitāya sajotibhūtāya.
+
+34	paragraph	ap-kvu-19
+sa. ṭha: hañci ucchedadiṭṭhiyā niyatassa puggalassa sassatadiṭṭhi uppajjeyya,
+
+35	gatha	ap-kvu-19
+“catukkaṇṇo catudvāro vibhatto bhāgaso mito
+ayopākārapariyanto ayasā paṭikujjito.
+
+36	paragraph	ap-kvu-19
+pa. anu: nanu āyasmā piḷindavaccho rañño māgadhassa seniyassa bimbisārassa pāsādaṁ suvaṇṇanatveva adhimucci, suvaṇṇo ca pana āsī’ti.
+
+37	gatha	sn-2
+ye ca saṅkhātadhammāse ye ca sekhā puthū idha,
+tesaṁ me nipako iriyaṁ puṭṭho pabrūhi mārisā”ti.
+
+38	paragraph	sn-2
+tatrā’vuso ye te samaṇabrāhmaṇā kammavādā sayaṁkataṁ sukhadukkhaṁ paññāpenti, tadapi phassapaccayā.
+
+39	paragraph	sn-2
+abhisambujjhitvā abhisametvā ācikkhati deseti paññapeti paṭṭhapeti vivarati vibhajati uttānīkaroti.
+
+40	paragraph	sn-2
+yo kho kassapa, aññatitthiyapubbo imasmiṁ dhammavinaye ākaṅkhati pabbajjaṁ.
+
+41	gatha	kn-bv
+uccattanena so buddho sattati hatthamuggato
+kañcanagghiya saṁkāso dvattiṁsavaralakkhaṇo.
+
+42	gatha	kn-bv
+yathā manussā nadiṁ tarantā paṭititthaṁ virajjhiya
+heṭṭhā titthe gahetvāna uttaranti mahānadiṁ.
+
+43	gatha	kn-bv
+tato padakkhiṇaṁ katvā bodhimaṇḍaṁ anuttaro
+assattharukkhamūlamhi bujjhissati mahāyaso.
+
+44	gatha	kn-bv
+tadā te bhojayitvāna sasaṅghaṁ lokanāyakaṁ
+upagañchuṁ saraṇaṁ tassa dīpaṅkarassa satthuno.
+
+45	paragraph	kn-ps-1-6
+uddhacce akampiyamaṇḍo samādhibalaṁ, uddhaccaṁ kasaṭo, uddhaccaṁ kasaṭaṁ chaḍḍetvā samādhibalassa uddhacce akampiyamaṇḍaṁ pivatīti maṇḍapeyyaṁ.
+
+46	paragraph	kn-ps-1-6
+paṭisandhikkhaṇe ime aṭṭhavīsati dhammā sahajātapaccayā honti, aññamaññapaccayā honti, nissayapaccayā honti, vippayuttapaccayā honti.
+
+47	paragraph	kn-ps-1-6
+sammappadhānaṁ maggo, ijjhanaṭṭhena iddhipādo maggo, tathaṭṭhena saccaṁ.
+
+48	gatha	kn-ps-1-6
+tesaṁ sutvāna sappaññā sacittaṁ paccaladdhu te
+aniccaṁ aniccataddakkhuṁ dukkhamaddakkhu dukkhato,
+
+49	paragraph	sn-5-2
+ekamantaṁ nisinno kho kuṇḍaliyo paribbājako bhagavantaṁ etadavoca: ahamasmi bho gotama, ārāmanisādī parisāvacaro.
+
+50	paragraph	sn-5-2
+tassa mayhaṁ bho gotama, pacchābhattaṁ bhuttapātarāsassa ayamācāro hoti: ārāmena ārāmaṁ uyyānena uyyānaṁ anucaṅkamāmi, anuvicarāmi.
+
+51	paragraph	sn-5-2
+evaṁ bhāvitā kho kuṇḍaliya, satta bojjhaṅgā evaṁ bahulīkatā vijjāvimuttiṁ paripūrentīti.
+
+52	paragraph	sn-5-2
+evaṁ vutte saṁgāravo brāhmaṇo bhagavantaṁ etadavoca: abhikkantaṁ bho gotama. ajjatagge pāṇupetaṁ saraṇaṁ gatanti.
+
+53	paragraph	ap-vbh-10
+catutthaṁ jhānaṁ etthuppannaṁ upekkhaṁ ṭhapetvā upekkhāsahagataṁ. tīṇi jhānāni na upekkhāsahagatā.
+
+54	paragraph	ap-vbh-10
+tasmiṁ samaye caturaṅgikaṁ jhānaṁ hoti vicāro pīti sukhaṁ cittassa ekaggatā, idaṁ vuccati dutiyaṁjhānaṁ.
+
+55	paragraph	ap-vbh-10
+‘pītiyā ca virāgā’ti tattha katamā pīti: yā pīti pāmojjaṁ āmodanā pamodanā hāso pahāso vitti odaggaṁ attamanatā cittassa.
+
+56	paragraph	ap-vbh-10
+yā imesaṁ channaṁ indriyānaṁ gutti gopanā ārakkhā saṁvaro, ayaṁ vuccati indriyesu guttadvāratā.
+
+57	gatha	kn-jat-22-10
+ārūḷhā gāmaṇīyehi tomaraṅkusapāṇihi,
+khippamāyantu sannaddhā hatthakkhandhehi dassitā.
+
+58	gatha	kn-jat-22-10
+kacci arogaṁ yoggaṁ te kacci vahati vāhanaṁ,
+kacci phitā janapadā kacci muṭṭhi na chijjati.
+
+59	gatha	kn-jat-22-10
+yāssu itthi sahassassa purato gacchati mālinī,
+sā kathajja anuccaṅgī vanaṁ gacchati ekikā.
+
+60	gatha	kn-jat-22-10
+vaṅkorā kukkuṭā nāgā aññamaññaṁ pakūjino,
+bakā balākā najjuhā dindibhā kuñjavādikā.
+
+61	paragraph	vp-cv
+atha kho saṅgho ariṭṭhassa bhikkhuno gaddhabādhipubbassa pāpikāya diṭṭhiyā appaṭinissagge ukkhepanīyakammaṁ akāsi asambhogaṁ saṅghena.
+
+62	paragraph	vp-cv
+na bhikkhave pārivāsikena bhikkhunā pakatattena bhikkhunā saddhiṁ ekacchanne āvāse vatthabbaṁ.
+
+63	paragraph	vp-cv
+so saṅghena paṭisāraṇīyakammakato macchikāsaṇḍaṁ gantvā maṅkubhūto nāsakkhi cittaṁ gahapatiṁ khamāpetuṁ.
+
+64	paragraph	vp-cv
+. sabhikkhuko anāvāso. sabhikkhuko āvāso vā anāvāso vā yatthassu bhikkhū samānasaṁvāsakā, yaṁ jaññā sakkomi ajjeva gantunti.
+
+65	paragraph	sn-3
+“okaṁ pahāya aniketasārīgāme akubbaṁ muni santhavāni,kāmehi ritto apurekkharāno kathaṁ na viggayha janena kayirā”ti.
+
+66	paragraph	sn-3
+kathañca gahapati, kathaṁ viggayha janena kattā hoti: idha gahapati, ekacco evarūpiṁ kathaṁ kattā hoti: na tvaṁ imaṁ dhammavinayaṁ ājānāsi.
+
+67	gatha	sn-3
+bhāraṁ pariññaṁ abhijānaṁ chandarāgena tayo ca assādā
+abhinandana ca uppādo aghamūlaṁ pabhaṅgu cā ti.
+
+68	paragraph	sn-3
+yo hi gahapati, imaṁ kāyaṁ pariharanto muhuttampi ārogyaṁ paṭijāneyya, kimaññatra bālyā.
+
+69	paragraph	vp-pct-2
+dutiyampi etamatthaṁ vadāmi. tatiyampi etamatthaṁ vadāmi. samanubhaṭṭhā saṅghena itthannāmā bhikkhunī tassa vatthussa paṭinissaggāya.
+
+70	paragraph	vp-pct-2
+anupasampannāya saddhiṁ cīvaraṁ vā aññaṁ vā parikkhāraṁ parivattetvā acchindati vā acchindāpeti vā āpatti dukkaṭassa.
+
+71	paragraph	vp-pct-2
+“yā pana bhikkhunī uccāraṁ vā passāvaṁ vā saṅkāraṁ vā vighāsaṁ vā harite chaḍḍeyya vā chaḍḍāpeyya vā, pācittiya”nti.
+
+72	paragraph	vp-pct-2
+aḍḍhateyyakaṁsaparamaṁ cetāpetabbanti: dasakahāpaṇagghanakaṁ cetāpetabbaṁ.
+
+73	gatha	kn-thig
+buddhānaṁ uppādo
+vivajjito akkhaṇo khaṇo laddho,
+sīlāni brahmacariyaṁ
+yāvajīvaṁ na dūseyyaṁ.
+
+74	gatha	kn-thig
+akkhīni ca turiyāriva kinnariyāriva pabbatantare
+tava me nayanānudikkhiya bhiyyo kāmaratī pavaḍḍhati.
+
+75	gatha	kn-thig
+dhīre nirodhaṁ phussehi saññā vūpasamaṁ sukhaṁ,
+ārādhayāhi nibbānaṁ yogakkhemaṁ anuttaraṁ.
+
+76	gatha	kn-thig
+upasame tare oghaṁ maccudheyyaṁ suduttaraṁ,
+dhārehi antimaṁ dehaṁ jetvā māraṁ savāhininti.
+
+77	paragraph	vp-cv-3
+ayaṁ udāyī bhikkhu ekaṁ āpattiṁ āpajji sañcetanikaṁ sukkavisaṭṭhiṁ pañcāhapaṭicchannaṁ.
+
+78	paragraph	vp-cv-3
+suṇātu me bhante saṅgho amhākaṁ bhaṇḍanajātānaṁ. bahuṁ assāmaṇakaṁ ajjhāciṇṇaṁ. sace mayaṁ imāhi āpattīhi aññamaññaṁ kāressāma.
+
+79	paragraph	vp-cv-3
+sammato saṅghena itthannāmo ca itthannāmo ca bhikkhu ubbāhikāya imaṁ adhikaraṇaṁ vūpasametuṁ. khamati saṅghassa tasmā tuṇhī. evametaṁ dhārayāmīti.
+
+80	paragraph	vp-cv-3
+yathāpaṭicchannañcassa parivāsaṁ datvā ubhinnampi mānattaṁ dātabbaṁ.
+
+81	paragraph	an-3-3
+niṭṭhamettha gacchāmi : “addhā te āyasmanto tayo dhamme pajahiṁsu, tayo dhamme bahulamakaṁsu.
+
+82	paragraph	an-3-3
+evaṁ bhanteti kho hatthako devaputto bhagavato paṭissutvā oḷārikaṁ attabhāvaṁ abhinimminitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi.
+
+83	paragraph	an-3-3
+lābhī kho pana hoti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārānaṁ.
+
+84	gatha	an-3-3
+dve manussā dve devā nirayā apare duve,
+dve tiracchānayoniyā dve petti visayā jambudīpehi yojeye.
+
+85	paragraph	vp-pct-1-2
+sāvatthinidānaṁ - tena kho pana samayena chabbaggiyā bhikkhū avagaṇḍakārakaṁ bhuñjanti.
+
+86	paragraph	vp-pct-1-2
+“anujānāmi bhikkhave gilānena bhikkhunā udake uccārampi passāvampi kheḷampi kātuṁ” evañca pana bhikkhave imaṁ sikkhāpadaṁ uddiseyyātha:.
+
+87	paragraph	vp-pct-1-2
+assosuṁ kho bhikkhū tassa seṭṭhissa gahapatissa ujjhāyantassa khīyantassa vipācentassa.
+
+88	paragraph	vp-pct-1-2
+ayañca brāhmaṇo adhammiko yatra hi nāma nīce āsane nisīditvā ucce āsane nisinnassa mantaṁ vācessati.
+
+89	paragraph	an-10
+ākaṅkhamānā ca pana tumhe āvuso bhagavantaṁ yeva upasaṅkamitvā etamatthaṁ puccheyyātha, bhagavā no bhavā vyākaroti, tathā naṁ dhāreyyāthāti.
+
+90	paragraph	an-10
+so anuvicca viññūhi sabrahmacārīhi vuccamāno vacīduccaritaṁ pahāya vacīsucaritaṁ bhāveti.
+
+91	paragraph	an-10
+seyyathāpi bhikkhave kūṭāgārassa yā kāci gopānasiyo sabbā tā kūṭaṅgamā kūṭaninnā kūṭasamosaraṇā, kūṭo tāsaṁ aggamakkhāyati.
+
+92	paragraph	an-10
+ajjhattaṁ arūpasaññī eko bahiddhā rūpāni passati parittāni suvaṇṇadubbaṇṇāni, “tāni abhibhuyya jānāmi, passāmī” ti evaṁ saññī hoti.
+
+93	paragraph	sn-4-1-12
+tiṭṭhatu tāva tiṇhena nikhādanena ādittena sampajjalitena sajotibhūtena ghānindriyaṁ sampalimaṭṭhaṁ.
+
+94	paragraph	sn-4-1-12
+nāhaṁ bhikkhave gamanena lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyanti vadāmi.
+
+95	paragraph	sn-4-1-12
+sotena saddaṁ sutvā. ghānena gandhaṁ ghāyitvā. jivhāya rasaṁ sāyitvā. kāyena phoṭṭhabbaṁ phusitvā.
+
+96	paragraph	sn-4-1-12
+seyyathāpi bhikkhu rañño paccantimaṁ nagaraṁ daḷhuddāpaṁ daḷha pākāratoraṇaṁ chadvāraṁ.
+
+97	paragraph	ap-yam-7
+aggamaggasamaṅgiñca aṭṭhamakañca ṭhapetvā avasesā puggalā vicikicchānusayañca nappajahanti, avijjānusayañca nappajahanti.
+
+98	paragraph	mn-3-5
+adukkhamasukhāya vedanāya phuṭṭho samāno tassā vedanāya samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ nappajānāti.
+
+99	paragraph	mn-3-5
+so dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti.
+
+100	gatha	mn-3-5
+anāthapiṇḍiko channo puṇṇo nandaka rāhulā,
+cha chakkaṁ saḷāyatanikaṁ nagaravindeyya suddhikā,
+indriyabhāvanā cāpi vaggo ovāda pañcamoti.
+
+101	paragraph	mn-3-5
+imasmiṁ kho pana veyyākaraṇasmiṁ bhaññamāne saṭṭhimattānaṁ bhikkhūnaṁ anupādāya āsavehi cittāni vimucciṁsūti.
+
+102	paragraph	an-9
+so araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā.
+
+103	paragraph	an-9
+nava ime bhikkhave, puggalā āhuneyyā pāhuneyyā dakkhiṇeyyā añjalikaraṇīyā anuttaraṁ puññakkhettaṁ lokassa.
+
+104	paragraph	an-9
+ko pana vādo annassa pānassa bajjassa bhojjassa leyyassa peyyassa? najjo maññe vissandanti.
+
+105	paragraph	an-9
+seyyathāpi bhante puriso medakathālikaṁ parihareyya chiddaṁ vicchiddaṁ uggharantaṁ paggharantaṁ.
+
+106	paragraph	vp-mv
+bhisibimbohanaṁ otāpetvā sodhetvā papphoṭetvā atiharitvā yathāpaññattaṁ paññāpetabbaṁ.
+
+107	paragraph	vp-mv
+addasā kho bhagavā taṁ brāhmaṇaṁ kisaṁ lūkhaṁ dubbaṇṇaṁ uppaṇḍuppaṇḍukajātaṁ dhamanisanthatagattaṁ.
+
+108	paragraph	vp-mv
+pīṭhaṁ nīcaṁ katvā sādhukaṁ aparighaṁsantena asaṁghaṭṭantena kavāṭapiṭṭhaṁ nīharitvā ekamantaṁ nikkhipitabbaṁ.
+
+109	paragraph	vp-mv
+sace kho upāli gaṇanaṁ sikkheyya, evaṁ kho upāli amhākaṁ accayena sukhañca jīveyya na ca kilameyyā”ti.
+
+110	paragraph	vp-pct-2-4-3
+nānubandheyyāti: na upaṭṭhaheyya. dve vassāni nānubandhissāmīti dhuraṁ nikkhittamatte āpatti pācittiyassa.
+
+111	paragraph	vp-pct-2-4-3
+vigarahi buddho bhagavā. kathaṁ hi nāma bhikkhave bhikkhuniyo ūnadvādasavassā vuṭṭhāpessanti.
+
+112	paragraph	vp-pct-2-4-3
+tā āyasmantaṁ upāliṁ akkosiṁsu “kathaṁ hi nāma: ayaṁ kāsāvaṭo malamajjano nihīnajacco amhākaṁ mantaṁ saṁharissatī”ti.
+
+113	paragraph	vp-pct-2-4-3
+bhikkhuniyo thullanandaṁ bhikkhuniṁ etadavocuṁ: gacchayye taṁ cīvaraṁ jānāhīti.
+
+114	paragraph	sn-2-1-5
+taṁ kissa hetu? dīgharattaṁ hetaṁ bhikkhave, assutavato puthujjanassa ajjhositaṁ mamāyitaṁ parāmaṭṭhaṁ etaṁ mama esohamasmi eso me attāti.
+
+115	paragraph	sn-2-1-5
+tatra puriso kālena kālaṁ telaṁ āsiñceyya, vaṭṭiṁ va upasaṁhareyya.
+
+116	paragraph	sn-2-1-5
+taṁ kimmaññatha bhikkhave, katamannu kho bahutaraṁ yaṁ vā mahāpaṭhaviyā parikkhīṇaṁ pariyādiṇṇaṁ, yā vā sattakolaṭṭhimattiyo guḷikā avasiṭṭhāti?.
+
+117	paragraph	sn-2-1-5
+tadassa nagaraṁ aparena samayena iddhañceva phītañca bāhujaññaṁ ākiṇṇamanussaṁ vuddhiṁ vepullappattaṁ.
+
+118	paragraph	mn-2-2
+imehi kho bhaddāli dasahaṅgehi samannāgato bhadro assājānīyo rājāraho hoti rājabhoggo rañño aṅganteva saṅkhaṁ gacchati.
+
+119	paragraph	mn-2-2
+aññatra kho panāhaṁ bhikkhave, rattibhojanā bhuñjamāno appābādhatañca sañjānāmi appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañca.
+
+120	paragraph	mn-2-2
+rañño nāgo īsādanto ubbūḷhavā abhijāto saṅgāmāvacaro saṅgāmagato. naṅguṭṭhenapi kammaṁ karoti.
+
+121	paragraph	mn-2-2
+so sakkuṇeyya gaṅgāya nadiyā tiriyaṁ bāhāya sotaṁ chetvā sotthinā pāraṁ gantuṁ.
+
+122	paragraph	ap-yam-10-4
+ye puthujjanā maggaṁ paṭilabhissanti te cakkhundriyañca na parijānittha, aññātāvindriyañca na sacchikarissanti.
+
+123	paragraph	ap-yam-10-4
+satta puggalā aññindriyañca na bhāvittha, anaññātaññassāmītindriyañca na bhāventi.
+
+124	gatha	kn-ap-1-5
+bandhujīvo tambapupphi vīthi kakkārupupphiyo
+mandāravo kadambī ca sūlako nāgapupphiyo
+punnāgo komudī gāthā chappaññāsa pakittitāti.
+
+125	gatha	kn-ap-1-5
+mahaccā kaṁsapātiyā vaḍḍhetvā pāyāsaṁ ahaṁ,
+āhutiṁ yiṭṭhukāmo so upanesiṁ baliṁ ahaṁ.
+
+126	gatha	kn-ap-1-5
+mahe pavattamānambhi siddhatthassa mahesino,
+ummāpupphaṁ gahetvāna thūpamhi abhiropayiṁ.
+
+127	gatha	kn-ap-1-5
+vyagghūsabhaṁ’va pavaraṁ abhijātaṁ’va kesariṁ,
+nisinnaṁ samaṇānaggaṁ bhikkhusaṁghapurakkhataṁ,
+vanditvā satthuno pāde pakkāmiṁ uttarāmukho.
+
+128	paragraph	mn-1-4
+evaṁ kho ahaṁ moggallāna abhijānāmi sakkassa devānamindassa saṁkhittena taṇhāsaṅkhayavimuttiṁ bhāsitā”ti.
+
+129	paragraph	mn-1-4
+yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati.
+
+130	paragraph	mn-1-4
+yaṁ kho aggivessana mādisaṁ dakkhiṇeyyaṁ āgamma vītarāgaṁ vītadosaṁ vītamohaṁ, taṁ tuyhaṁ bhavissatī”ti.
+
+131	paragraph	mn-1-4
+so kho ahaṁ aggivessana dante’bhidantamādhāya jivhāya tāluṁ āhacca cetasā cittaṁ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi.
+
+132	gatha	kn-nett-3-3
+devesu devasobhaggaṁ dibbaṁ rajjaṁ pasāsiya,
+manujesu manujindo rājā raṭṭhe bhavissati.
+
+133	gatha	kn-nett-3-3
+“yañca kāmasukhaṁ loke yaṁ cidaṁ diviyaṁ sukhaṁ,
+taṇhakkhayasukhassete kalaṁ nāgghanti soḷasiṁ”ti.
+
+134	paragraph	kn-nett-3-3
+“uḷāro buddho bhagavā”ti buddhuḷārattaṁ dhammasvākkhātataṁ saṅghasuppaṭipattiñca ekaṁseneva niddise.
+
+135	gatha	kn-nett-3-3
+“caranti bālā dummedhā amitteneva attanā,
+karontā pāpakāṁ kammaṁ yaṁ hoti kaṭukapphalaṁ.
+
+136	gatha	vp-pv-5
+nīcacittena puccheyya garu saṅghena puggalo,
+suttaṁ saṁsandanatthāya, vinayānuggahena ca ;
+uddānaṁ cūḷasaṅgāme ekuddesaṁ idaṁ katanti.
+
+137	gatha	vp-pv-5
+saccaṁ ahampi jānāmi ediso vuccati alajjīpuggalo,
+aññañca tāhaṁ pucchāmi kīdiso vuccati lajjīpuggalo :
+
+138	gatha	vp-pv-5
+peyyāla antarā bhedā ekuttarikameva ca,
+pavāraṇatthavasikā mahāvaggassa saṅgahoti.
+
+139	paragraph	an-7
+aggiṁ brāhmaṇa, ādento yūpaṁ ussāpento pubbeva yaññā idaṁ tatiyaṁ kāyasatthaṁ ussāpeti akusalaṁ dukkhudrayaṁ dukkhavipākaṁ.
+
+140	paragraph	an-7
+so evamāha: ahaṁ ime vajjī evaṁ mahiddhike evaṁ mahānubhāve ucchecchāmi, vajjī vināsessāmi, vajji anayabyasanaṁ āpādessāmiti.
+
+141	paragraph	an-7
+acchariyaṁ bhante, abbhutaṁ bhante, yāva aḍḍho cāyaṁ bhante, migāro rohaṇeyyo yāva mahaddhano yāva mahābhogoti.
+
+142	paragraph	an-7
+rāgaggi, dosaggi, mohaggi, āhuneyyaggi, gahapataggi, dakkhiṇeyyaggi, kaṭṭhaggi. ime kho bhikkhave, satta aggī’ti.
+
+143	paragraph	ap-vbh-17
+tattha katame pañca vyasanā: ñātivyasanaṁ bhogavyasanaṁ rogavyasanaṁ sīlavyasanaṁ diṭṭhivyasanaṁ, ime pañca vyasanā.
+
+144	paragraph	ap-vbh-17
+yo evarūpo māno maññanā maññitattaṁ unnati unnāmo dhajo sampaggāho ketukamyatā cittassa, ayaṁ vuccati seyyassa sadiso’hamasmīti māno.
+
+145	paragraph	ap-vbh-17
+tadekajjhaṁ abhisaññūhitvā abhisaṁkhipitvā chattiṁsa taṇhāvicaritāni honti.
+
+146	paragraph	an-2
+thero cepi maṁ vadeyya, hitānukampī maṁ vadeyya, no ahitānukappī, sādhūti naṁ vadeyyaṁ, na viheseyyaṁ passampissa paṭikareyyaṁ.
+
+147	paragraph	vp-pct
+atha kho bhikkhave so brāhmaṇo sakaṭasataṁ atibandhitvā nandivisālaṁ balivaddaṁ yojetvā etadavoca - “añja, bhadra, vahassu, bhadrā”ti.
+
+148	paragraph	vp-pct
+kocchaṁ nāma: vākamayaṁ vā usīramayaṁ vā muñjamayaṁ vā babbajamayaṁ vā anto saṁveṭhetvā baddhaṁ hoti.
+
+149	paragraph	vp-pct
+tato ce uttariṁ appaharitepi ṭhito adhiṭṭhaheyyāti: iṭṭhakāya chādentassa iṭṭhakiṭṭhakāya āpatti pācittiyassa.
+
+150	paragraph	vp-pct
+ayyassa udāyissāti, yepi te chinnakā dhuttakā ahirikā tesampi evarūpaṁ na sobheyya kiṁ pana ayyassa udāyissāti.
+
+151	paragraph	dn-2-4
+bhūtapubbaṁ ānanda, rājā mahāsudassano nāma ahosi khattiyo muddhāvasitto cāturanto vijitāvī janapadatthāvariyappatto.
+
+152	gatha	kn-ap-1-19
+tamālī tiṇasanthāro khaṇḍaphullī asokiyo
+aṅkolakī kisalayo tinduko nelapupphiyo
+kiṅkaṇiko yūthiko ca gāthā paññāsa aṭṭha ca.
+
+153	gatha	kn-ap-1-19
+satthāraṁ dhammamārabbha saṅghañcāpi mahesinaṁ,
+potthadānaṁ mayā dinnaṁ dakkhiṇeyye anuttare.
+
+154	gatha	kn-ap-1-19
+suvaṇṇaṁ tilamuṭṭhī ca caṅgoṭabbhañja añjali
+potthako cita māluvo ekapuṇḍari setunā
+dvecattāḷīsagāthāyo gaṇitāyo vibhāvihi.
+
+155	paragraph	ap-kvu-15
+sa. ṭha: hañci avitakke vicāramatte samādhimhi vattamāne paṭhamaṁ jhānaṁ niruddhaṁ, dutiyaṁ jhānaṁ paṭuppannaṁ,
+
+156	gatha	dn-2-3
+devindanāgindanarinda pūjito
+manussaseṭṭhehi tatheva pūjito,
+taṁ vandatha pañjalikā bhavitvā
+buddho have kappasatehi dullabho’ti.
+
+157	paragraph	dn-2-3
+“sutammetaṁ bhante, vajjī ye te vajjīnaṁ vajjimahallakā, te sakkaronti garukaronti mānenti pūjenti, tesañca sotabbaṁ maññantī”ti.
+
+158	paragraph	an-4-5
+nekkhammavitakkena, avyāpādavitakkena, avihiṁsāvitakkena, paññavā hoti ajaḷo aneḷamūgo.
+
+159	gatha	kn-thag-11
+paṅkoti hi naṁ pavedayuṁ
+yāyaṁ vandanapūjanā kulesu,
+sukhumaṁ sallaṁ durubbahaṁ
+sakkāro kāpurisena dujjaho.
+
+160	gatha	kn-thag-11
+ropetva rukkhāni yathā phalesī
+mūle taruṁ chettu tameva icchasi
+tathūpamaṁ cittamidaṁ karosi
+yaṁ maṁ aniccamhi cale niyuñjasi.
+
+161	gatha	kn-thag-11
+bahū ādīnavā loke uppajjissantyanāgate,
+sudesitaṁ imaṁ dhammaṁ kilesissanti dummatī.
+
+162	gatha	kn-thag-11
+nanu ahaṁ citta tayāmhi yācito
+giribbaje citrachadā vihaṅgamā
+mahindaghosatthantābhigajjino
+te taṁ ramissanti vanamhi jhāyinaṁ.
+
+163	gatha	kn-jat-22
+vehāsayāme bahukā jātarūpassa nimmitā,
+daddallamānā ābhenti vijjuvabbhaghanantare.
+
+164	gatha	kn-jat-22
+disvāna lokavattantaṁ khajjantaṁ kaddamikataṁ,
+haññare bajjhare cettha yattha satto puthujjano;
+etāhaṁ upamaṁ katvā bhikkhakosmi migājina.
+
+165	gatha	kn-jat-22
+ayaṁ so sārathī eti nihantvāna mamatrajaṁ,
+nihato nūna me putto pathavyā bhūmivaddhano.
+
+166	gatha	kn-jat-22
+ye dubbale balavanto jivaloke
+hiṁsenti rosenti supāpadhammā,
+te luddakammā pasavetvā pāpaṁ
+te ve janā vetaraṇiṁ patanti.
+
+167	gatha	kn-ap-1-41
+khettato dhaññamāhatvā sambuddhamupasaṅkamiṁ,
+upasaṅkamma samubuddhaṁ lokajeṭṭhaṁ narāsabhaṁ,
+vanditvā satthuno pāde imaṁ vacanamabraviṁ.
+
+168	gatha	kn-ap-1-41
+kallatthikā ye passanti buddhaseṭṭha tuvaṁ mune,
+dhuvatthasiddhiṁ papponti etesaṁ jajjaro bhavo.
+
+169	gatha	kn-ap-1-41
+tassa sisso bhavitvāna hessati mantapāragū,
+upagantvāna sambuddhaṁ gotamaṁ sakyapuṅgavaṁ.
+
+170	gatha	sn-1
+sace enti manussattaṁ aḍḍhe ājāyare kule,
+coḷaṁ piṇḍo ratī khiḍḍā yatthākicchena labbhati.
+
+171	paragraph	sn-1
+kassa hi nāma abālassa aduṭṭhassa amūḷhassa avipallatthacittassa āyasmā sāriputto na rucceyyāti.
+
+172	paragraph	an-3-2
+jiṇṇampi bhikkhave, potthakaṁ ukkhaliparimajjanaṁ vā karonti saṁkārakūṭe vā taṁ chaḍḍenti.
+
+173	paragraph	sn-5-11
+tañca pana te dhamme aveccappasādaṁ attani samanupassato ṭhānaso vedanā paṭippassambheyyuṁ.
+
+174	gatha	sn-3-1-2
+pheṇapiṇḍūpamaṁ rūpaṁ vedanā bubbuḷūpamā
+marīcikūpamā saññā saṅkhārā kadalūpamā,
+māyūpamañca viññāṇaṁ dīpitādiccabandhunā.
+
+175	paragraph	mn-1-2
+so tā gāvo tato tato daṇḍena ākoṭeyya patikoṭeyya sannirundheyya sannivāreyya.
+
+176	gatha	kn-cp
+yato sarāmi attānaṁ yato pattosmi viññutaṁ
+nābhijānāmi sañcicca ekapāṇaṁ vihiṁsitaṁ
+etena saccavajjena pajjunno abhivassatu.
+
+177	gatha	kn-ap-1-45
+cullāsītisahassāni thamhā soṇṇamayā ahuṁ,
+maṇimayā ca niyyuhā chadanaṁ rūpiyaṁ ahu.
+
+178	gatha	dn-3-5
+taṁ kammaṁ katvā kusalaṁ sukhudrayaṁ 
+jaṅghā manuññā labhate susaṇṭhitā,
+vaṭṭā sujātā anupubbamuggatā
+uddhaggalomā sukhumattacotthaṭā.
+
+179	gatha	dn-3-5
+sippesu vijjācaraṇesu kammasu 
+kathaṁ vijāneyyu lahunti icchati.
+yadūpaghātāya na hoti kassaci
+vāceti khippaṁ na ciraṁ kilissati.
+
+180	paragraph	dn-3-5
+taṁ kissa hetu? evaṁ hetaṁ cunda hoti svākkhāte dhammavinaye suppavedite niyyānike upasamasaṁvattanike sammāsambuddhappavedite.
+
+181	gatha	mn-3-2
+ketumbarāgo ca mātaṅgo ariyo
+athaccuto accutagāmabyāmako,
+sumaṅgalo dabbilo suppatiṭṭhito
+asayho khemābhirato ca sorato.
+
+182	gatha	kn-vv
+tuyhaṁnavidaṁ issariyaṁ atho mama
+itissā sassu parihāsate mamaṁ
+leḍḍuṁ gahetvā pahāraṁ adāsi me
+tato cutā kālakatāmbhi devatā.
+
+183	gatha	kn-vv
+sassu ca pacchā anuyuñjate mamaṁ
+kahaṁ nu ucchu vadhake avākiri
+nacchaḍḍhitaṁ no pana khāditaṁ mayā
+santassa bhikkhussa sayaṁ adāsahaṁ.
+
+184	gatha	kn-vv
+so modasi nārigaṇappabodhato
+vimānapāsādavare manorame
+acintiyo sabbaguṇūpapanno
+rājā yathā vessavaṇo nalinyā
+
+185	gatha	kn-vv
+yadi te sutā andhaka veṇhuputtā,
+sūrā vīrā vikkattappahārino.
+tepi āyukkhayaṁ pattā
+viddhastā sassatīsamā.
+
+186	gatha	kn-jat-11
+caṇḍālaputto mama sampadāsi
+dhammena mante pakatiñca saṁsi,
+mā cassu me pucchito nāmagottaṁ.
+guyhittho mā taṁ vijaheyya manto.
+
+187	gatha	kn-jat-11
+aḍḍhaṭṭhapādo catuppadassa
+meṇḍo aṭṭhanakho adissamāno,
+chādiyamāharati ayaṁ imassa
+maṁsaṁ āharati ayaṁ amussa.
+
+188	gatha	kn-jat-11
+khantibalo yuddhabalaṁ vijetvā
+hantvā adhammaṁ nihanitva bhummā,
+pāyāsi vitto abhiruyha sandanaṁ
+maggeneva atibalo saccanikkamo.
+
+189	gatha	kn-jat-11
+tuvaṁ nu tattheva tadā ahosi
+udāhu te koci naṁ etadakkhā,
+vivattacchaddo nusi sabbadassī
+ñāṇannu te brāhmaṇa bhiṁsarūpaṁ.
+
+190	gatha	kn-nc-18
+“dussaṅgahā pabbajitāpi eke
+atho gahaṭṭhā gharamāvasantā
+appossukko paraputtesu hutvā
+eko care khaggavisāṇakappo’ti.
+
+191	paragraph	mn-1-1
+so taṁ piṇḍapātaṁ bhuñjitvā jighacchādubbalyaṁ paṭivinetvā evaṁ rattindivaṁ vītināmeyya.
+
+192	gatha	kn-jat-5
+baddhākulikā mitamāḷhakena
+akkhā jitā saṁyamo abbhatīto,
+appahitaṁ pupphakaṁ aḍḍharattaṁ
+hatthā daḍḍhā piṇḍapaṭiggahena.
+
+193	gatha	kn-jat-5
+nāssa sīlaṁ vijānātha anaññāya pasaṁsatha,
+bhutvā aṇḍañca chāpe ca dhammo dhammoti bhāsati.
+
+194	gatha	kn-jat-5
+pāpāni kammāni karitva rāja
+bahussuto neva careyya dhammaṁ,
+sabhassavedāpi na taṁ paṭicca
+dukkhā pamuñce caraṇaṁ apatvā
+
+195	gatha	kn-jat-5
+mayāpi tāta paṭilacchase tuvaṁ
+etādisaṁ kamma jarūpanīto,
+taṁ kullavattaṁ anuvattamāno
+ahampi taṁ nikhaṇissāmi sobbhe.
+
+196	gatha	kn-ap-1-53
+paccuppannañca yo dhammaṁ tattha tattha vipassati,
+asaṁhīraṁ asaṁkuppaṁ taṁ vidvā anubrūhaye.
+
+197	gatha	kn-snp-4
+kayavikkaye na tiṭṭheyya
+upavādaṁ bhikkhu na kareyya kuhiñci,
+gāme ca nābhisajjeyya
+lābhakamyā janaṁ na lapayeyya.
+
+198	paragraph	anya-vm-12
+tato ekaṁ vassaṁ tayo koṭṭhāse katvā vassānahemantagimhesu tīsu utūsu ekekautuvasena tasmiṁ vayovuḍḍhatthaṅgamarūpe tilakkhaṇaṁ āropeti.
+
+199	paragraph	anya-vm-12
+so sabbampi taṁ rūpaṁ pariggahetvā “cakkhudvāre pavattarūpaṁ sotadvāraṁ appatvā ettheva nirujjhati.
+
+200	paragraph	anya-vm-12
+thero paricchinnakālavasena vuṭṭhāya te disvā “pākaṭomhi jāto”ti vehāsaṁ uppatitvā piyaṅgudīpaṁ agamāsi.
+
+201	paragraph	anya-vm-12
+so ekassa piṭṭhiyaṁ ṭhatvā ekassa aṁsakūṭaṁ olubbha yathāruci pupphāni ocinitvā piḷandhitvā nakkhattaṁ kīḷeyya.
+
+202	gatha	kn-dhp
+saccaṁ bhaṇe na kujjheyya dajjāppasamimpi yācito
+etehi tīhi ṭhānehi gacche devāna santike.
+
+203	paragraph	kn-nc
+yaṁ taṁ apucchimha akittayī noti: yaṁ taṁ apucchimha āyācimha ajjhesimha pasādimha.
+
+204	paragraph	kn-nc
+kassa no santi iñjitāti: taṇhiñjitaṁ diṭṭhiñjitaṁ māniñjitaṁ kilesiñjitaṁ kāmiñjitaṁ.
+
+205	gatha	kn-nc
+kosambiṁ cāpi sāketaṁ-sāvatthiṁ ca puruttamaṁ
+setavyaṁ kapilavatthuṁ-kusināraṁ ca mandiraṁ.
+
+206	paragraph	kn-ps
+pañca pahānāni: vikkhambhanappahānaṁ tadaṅgappahānaṁ samucchedappahānaṁ paṭippassaddhippahānaṁ nissaraṇappahānaṁ.
+
+207	paragraph	vp-pct-1-1-5
+chabbaggiyā bhikkhū bhagavatā vassikasāṭikā anuññātāti appamāṇikāyo vassikasāṭikāyo dhārenti puratopi pacchatopi ākaḍḍhantā āhiṇḍanti.
+
+208	gatha	kn-jat-18
+haneyyu chindeyyumpi chedayeyyuṁ
+kaṇṭhampi chetvā rudhiraṁ pibeyyuṁ,
+mā dīnakāmāsu asaññatāsu
+bhāvaṁ kare gaṅgatitthupamāsu.
+
+209	gatha	kn-jat-18
+dhaṅkā bheraṇḍakā gijjhā kākoḷā ca ayomukhā,
+vipphandamānaṁ khādanti naraṁ kibbisakārinaṁ.
+
+210	gatha	kn-jat-18
+nabhaṁ phaleyya udadhī visusse
+saṁvatteyya bhūtadharā vasundharā,
+siluccayo neru samūlamuppate
+natvevahaṁ rāja musā bhaṇeyyaṁ.
+
+211	gatha	kn-jat-18
+suvaṇṇacandettha bahū nipātitā
+hatthi gavassā kikivyagghadīpiyo,
+eṇeyyakā laṅghimayettha pakkhiyo
+migettha veḷuriyamayā yudhāyutā.
+
+212	paragraph	dn-3
+“na kho nigrodha, ettāvatā tapojigucchā aggappattā ca hoti sārappattā ca. api ca kho phegguppattā hotī”ti.
+
+213	paragraph	dn-3
+brāhmaṇā’va sujjhanti no abrāhmaṇā brāhmaṇā’va brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā.
+
+214	paragraph	ap-yam
+yassa vedanākkhandho nūppajjittha tassa saññākkhandho na nirujjhitthāti: natthi.
+
+215	paragraph	vp-prj
+suṅkaghātaṁ nāma raññā ṭhapitaṁ hoti pabbatakhaṇḍe vā nadītitthe vā gāmadvāre vā ‘atra paviṭṭhassa suṅkaṁ gaṇhantū’ti.
+
+216	paragraph	anya-vm-1
+pāpicchasseva pana sato uttarimanussadhammādhigamaparidīpanavācāya tathā tathā vimhāpanaṁ sāmantajappanasaṅkhātaṁ kuhanavatthūti veditabbaṁ. yathāha -
+
+217	gatha	anya-vm-1
+asadisarūpo nātho, āruppaṁ yaṁ catubbidhaṁ āha.
+taṁ iti ñatvā tasmiṁ, pakiṇṇakakathāpi viññeyyā.
+
+218	gatha	anya-vm-1
+tato upaḍḍhupaḍḍhena, pamāṇena yathākkamaṁ;
+ajjhogāḷhuggatā dibbā, nānāratanacittitā.
+
+219	paragraph	anya-vm-1
+napi ambaphaladvayaṁ jānāti ahaṁ vaṇṭena upanibaddhanti, evameva na thūlanhāru jānāti mayā vakkaṁ upanibaddhanti.
+
+220	paragraph	dn-1-11
+seyyathāpi nāma ossakkantiyā vā ussakkeyya, parammukhiṁ vā āliṅgeyya, evaṁ sampadamidaṁ pāpakaṁ lobhadhammaṁ vadāmi.
+
+221	gatha	kn-snp-2
+tasvā hi piṇḍe sayanāsane ca
+āpe ca saṁghāṭirajūpavāhane,
+etesu dhammesu anūpalitto
+bhikkhū yathā pokkhare vāribindū.
+
+222	paragraph	an-10-2
+taṁ kissa hetu: tathā hissa bhikkhave viññū manussā tāni sāṭheyyāni kūṭeyyāni jimheyyāni vaṅkeyyāni pahīnāni samanupassanti.
+
+223	gatha	dn-2-7
+āguṁ pañcasikho ceva timbaru suriyavaccasā
+ete caññe ca rājāno gandhabbā saha rājūhi, 
+modamānā abhikkāmuṁ bhikkhūnaṁ samitiṁ vanaṁ.
+
+224	paragraph	ap-vbh-14
+katame te sattā mudindriyā: pañcindriyāni: saddhindriyaṁ viriyindriyaṁ satindriyaṁ samādhindriyaṁ paññindriyaṁ.
+
+225	gatha	kn-jat
+sarīradavyaṁ vaddhavyaṁ sojaccaṁ sādhusīliyaṁ,
+brāhmaṇantveva pucchāma kaṁ nu tesaṁ vaṇimbhase.
+
+226	gatha	kn-jat
+idaṁ vatvā mahārājā kaṁso bārāṇasiggaho,
+dhanuṁ tūṇiñca nikkhippa saṁyamaṁ ajjhupāgamī’ti.
+
+227	paragraph	an-6
+yampi bhikkhave daḷiddo assako anāḷhiyo vaḍḍhiṁ paṭisuṇitvā kālābhataṁ vaḍḍhiṁ na deti.
+
+228	gatha	kn-jat-15
+sosetvā nūna maraṇaṁ taṁ mamaṁ āvahisasti,
+ambaṁ yassa phalaṁ sāduṁ madhuraggaṁ manoramaṁ
+yamuddhariṁ vuyhamānaṁ udadhismā mahaṇṇave.
+
+229	gatha	kn-jat-15
+athabravi brahā indo vatrabhū jayataṁ pitā,
+devakaññaṁ parābhetvā sudhammāyaṁ alambusaṁ.
+
+230	gatha	kn-jat-15
+tiro tuḍḍhaṁ tiro selaṁ samatīggayha pabbataṁ,
+samantā yojanasataṁ dassanaṁ anubhontu te.
+
+231	paragraph	mn-2-3
+na maṁ te iminā dhammena sakkareyyuṁ garukareyyuṁ māneyyuṁ pūjeyyuṁ, sakkatvā garukatvā upanissāya vihareyyunti.
+
+232	paragraph	dn-3-10
+cattāri pañhabyākaraṇāni: ekaṁsabyākaraṇīyo pañho, paṭipucchābyākaraṇīyo pañho, vibhajjabyākaraṇīyo pañho, ṭhapanīyo pañho.
+
+233	gatha	kn-petk
+kāmā hi citrā madhurā manoramā
+virūparūpena mathenti cittaṁ,.
+tasmā ahaṁ pabbajitomhi rāja.
+apaṇṇakaṁ sāmaññameva seyyo.
+
+234	gatha	kn-snp-3
+so bodhisatto ratanavaro atulyo
+manusseloke hitasukhatāya jāto,
+sakyāna gāme janapade lumbineyye
+tenamhi tuṭṭhā atiriva kalyarūpā.
+
+235	gatha	kn-thag
+olaggessāmi te citta āṇidvāreva hatthinaṁ,
+na taṁ pāpe niyojessaṁ kāmajāla sariraja.
+
+236	gatha	kn-thag
+vappo ca vajjiputto ca pakkho vimalakoṇḍañño
+ukkhepakaṭavaccho ca meghiyo ekadhammiko
+ekudāniyacchannā ca puṇṇatthero mahabbalo’ti.
+
+237	paragraph	ap-pat-1-12
+sekkhā phalaṁ paccavekkhanti, nibbānaṁ paccavekkhanti, nibbānaṁ gotrabhussa, vodānassa ārammaṇa pacca-.
+
+238	paragraph	an-5
+kilameyyaṁ, parideveyyaṁ, urattāḷiṁ kandeyyaṁ, sammohaṁ āpajjeyyaṁ, bhattampi me nacchādeyya.
+
+239	paragraph	dn-1-3
+atha kho bhagavato etadahosi: atibāḷhaṁ kho ayaṁ ambaṭṭho māṇavo sakkesu ibbhavādena nimmāneti. yannūnāhaṁ gottaṁ puccheyyanti.
+
+240	paragraph	mn-3-3
+sohaṁ tathā karissāmi, yathā me puna na vicikicchā uppajjissati na amanasikāro na thinamiddhaṁ na chambhitattaṁ na ubbillaṁ na duṭṭhullanti.
+
+241	gatha	vp-cv-5
+khuddake kuḍḍapādo ca ovassati saraṁ khilaṁ
+cīvaravaṁsaṁ rajjuñca āḷindaṁ kiṭīkena ca.
+
+242	paragraph	vp-cv-5
+jantāgharaṁ tiṇacchadanaṁ sādeti. “anujānāmi bhikkhave ogumbetvā ullittāvalittaṁ kātunti.”
+
+243	paragraph	ap-pat-4
+kenaciviññeyya hetuñca na kenaciviññeyyaṁ hetuñca dhammaṁ paṭicca na kenaciviññeyyo na hetu dhammo uppajjati hetupaccayā, nava.
