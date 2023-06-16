@@ -26,6 +26,16 @@ export function normalizePrompt(ptext) {
     return {sinhala, roman}
 }
 
+export function loadPrompts(file) {
+    const groups = fs.readFileSync(file, 'utf-8').split('\n\n'), prompts = {}
+    groups.forEach(group => {
+        const lines = group.split('\n')
+        const [index, type, file] = lines[0]
+        prompts[lines.slice(1).join('\n')] = {index, type, file}
+    })
+    return prompts
+}
+
 function comparePromptLists(file1, file2) {
     const texts1 = Object.keys(JSON.parse(fs.readFileSync(file1)))
     const texts2 = Object.keys(JSON.parse(fs.readFileSync(file2)))
@@ -34,4 +44,5 @@ function comparePromptLists(file1, file2) {
     console.log(inBoth)
 }
 
-comparePromptLists('syl-prompts/info-naitissa.json', 'syl-prompts/info-dhammagaru.json')
+//comparePromptLists('syl-prompts/info-naitissa.json', 'syl-prompts/info-dhammagaru.json')
+//comparePromptLists('sinhala-prompts/syls-syl-1.json', 'sinhala-prompts/syls-syl-3.json')
