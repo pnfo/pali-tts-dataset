@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pali Chanting Text to Speech</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pāḷi Chanting Text to Speech</h1>
+    </header>
+    <main>
+      <div>
+        <p>Following results were obtained by training the 20 hour Pali dataset <a href="https://github.com/pnfo/pali-tts-dataset/releases">here</a> for about 700 epochs on a RTX 3090 GPU. 
+            The training took about 24 hours.</p>
+        <p>The trained model is included in the releases section of this repository <a href="https://github.com/pathnirvana/coqui-tts/releases">here</a></p>
+        <p>Example texts for the following voice synthesis come from the <a href="https://tipitaka.app/">Chaṭṭha Saṅgāyana Tipiṭaka</a></p>
+        <p>TODO: Currently there is only one speaker in the dataset. If we can obtain few different speakers with each speaker contributing about 1 hour of high quality recordings of given text prompts, we could possibly improve the quality of the model further. Also this would give the option of generating recordings with the styles of those different speakers at the inference time.</p>
+      </div>
+      <div class="audio-group">
+        <h2>Paragraph style</h2>
+        <p>namo tassa bhagavato arahato sammāsambuddhassa.<br>
+            Dīghanikāyo.<br>
+            Sīlakkhandhavaggapāḷi.<br>
+            Brahmajālasuttaṃ.<br>
+            Evaṃ me sutaṃ - ekaṃ samayaṃ bhagavā antarā ca rājagahaṃ antarā ca nāḷandaṃ addhānamaggappaṭipanno hoti mahatā bhikkhusaṅghena saddhiṃ pañcamattehi bhikkhusatehi. </p>
+        <audio controls>
+          <source src="samples/para-1.wav" type="audio/wav">
+        </audio>
+        <p>Mūlapariyāyasuttaṃ.<br>
+            Evaṃ me sutaṃ - ekaṃ samayaṃ bhagavā ukkaṭṭhāyaṃ viharati subhagavane sālarājamūle. Tatra kho bhagavā bhikkhū āmantesi - “Bhikkhavo”ti. “Bhadante”ti te bhikkhū bhagavato paccassosuṃ. Bhagavā etadavoca - “Sabbadhammamūlapariyāyaṃ vo, bhikkhave, desessāmi. Taṃ suṇātha, sādhukaṃ manasi karotha, bhāsissāmī”ti. “Evaṃ, bhante”ti kho te bhikkhū bhagavato paccassosuṃ. Bhagavā etadavoca -</p>
+        <audio controls>
+          <source src="samples/para-2.wav" type="audio/wav">
+        </audio>
+        <p>Dasasikkhāpadaṃ.<br>
+            Pāṇātipātā veramaṇī sikkhāpadaṃ samādiyāmi.<br>
+            Adinnādānā. Abrahmacariyā. Musāvādā. Surāmerayamajjapamādaṭṭhānā. Vikālabhojanā. Mālā-gandha-vilepana-dhāraṇa-maṇḍana-vibhūsanaṭṭhānā. Uccāsayana-mahāsayanā. Jātarūpa-rajatapaṭiggahaṇā veramaṇī-sikkhāpadaṃ samādiyāmi.</p>
+        <audio controls>
+            <source src="samples/para-3.wav" type="audio/wav">
+        </audio>
+      </div>
+      <div class="audio-group">
+        <h2>Gāthā style</h2>
+        <p>“Evaṃ abhikkantadassāviṃ, atthi pañhena āgamaṃ;<br>
+            Kathaṃ lokaṃ avekkhantaṃ, maccurājā na passati”.<br>
+            <br>
+            “Suññato lokaṃ avekkhassu, mogharāja sadā sato;<br>
+            Attānudiṭṭhiṃ ūhacca, evaṃ maccutaro siyā;<br>
+            Evaṃ lokaṃ avekkhantaṃ, maccurājā na passatī”ti.</p>
+        <audio controls>
+          <source src="samples/gatha-1.wav" type="audio/wav">
+        </audio>
+        <p>Manopubbaṅgamā dhammā, manoseṭṭhā manomayā;<br>
+            Manasā ce paduṭṭhena, bhāsati vā karoti vā;<br>
+            Tato naṃ dukkhamanveti, cakkaṃva vahato padaṃ.<br>
+            <br>
+            Akkocchi maṃ avadhi maṃ, ajini maṃ ahāsi me;<br>
+            Ye ca taṃ upanayhanti, veraṃ tesaṃ na sammati.</p>
+        <audio controls>
+          <source src="samples/gatha-2.wav" type="audio/wav">
+        </audio>
+      </div>
+      <div class="audio-group">
+        <h2>From Aṭṭhakathā and Tīkā</h2>
+        <p>nissattaṭṭhasuññataṭṭhasaṅkhātenāti dhammamattatāya nissattatāsaṅkhātena niccasubhasukhaattasuññatatthasaṅkhātena. sabhāvaṭṭhenāti yathābhūtasabhāvaṭṭhena.</p>
+        <audio controls>
+            <source src="samples/atta-1.wav" type="audio/wav">
+        </audio>
+        <p>Imaṃ pañhaṃ pucchi. Tassāyaṃ saṅkhepattho - jaṭāti taṇhāya jāliniyā etaṃ adhivacanaṃ. Sā hi rūpādīsu ārammaṇesu heṭṭhupariyavasena punappunaṃ uppajjanato saṃsibbanaṭṭhena veḷugumbādīnaṃ sākhājālasaṅkhātā jaṭā viyāti jaṭā, sā panesā sakaparikkhāraparaparikkhāresu sakaattabhāvaparaattabhāvesu ajjhattikāyatanabāhirāyatanesu ca uppajjanato antojaṭā bahijaṭāti vuccati. </p>
+        <audio controls>
+            <source src="samples/atta-2.wav" type="audio/wav">
+        </audio>
+      </div>
+    </main>
+  </body>
+</html>
