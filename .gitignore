@@ -1,6 +1,6 @@
 node_modules
-pali_dataset.tar.bz2*
+*.tar.bz2*
 .DS_Store
 wavs/
-originals/
 *.flac
+*.m4a

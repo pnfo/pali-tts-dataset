@@ -4,24 +4,26 @@ import fs from 'fs'
 
 export function normalizeText(text, type) {
     text = text.replace(/\*\*|__|\{\S+?\}/g, '') // remove bold, underline and footnotes
-    text = text.replace(/ ?-පෙ-/g, '.') // -pe- is not pronounced
+    text = text.replace(/\$|\*/g, '') // not in pdf indications, orphaned asterisks
+    text = text.replace(/ ?-පෙ-|!/g, '.') // -pe- is not pronounced
     text = text.replace(/^-පෙ-/g, '') // beginning with -pe- removed
     text = text.replace(/[-–—]+/g, '-')
     text = text.replace(/\.+/g, '.')
     text = text.replace(/\d+[-\.,]?/g, '') // numbers mostly at the beginning of entries
+    text = text.replace(/^[ixv]+\./g, '') // arabic numbers at the beginning
     text = text.replace(/\(\s?\)/g, ' ') // remove empty brackets
-    // if a speaker encoding is used to denote various chanting styles, remove the type checks below
-    text = text.replace(/\n/g, type == 'gatha' ? ' x ' : ' # ') // newlines cause issues in displaying text
-    //if (e.type == 'heading') text = text + '~' // headings are long chanted at the end. use ~ for longing
     return text.trim()
 }
 
-export function normalizePrompt(ptext) {
-    ptext = ptext.replace(/[\[\{\(]\s?/g, '(') // only the normal bracket is supported
-    ptext = ptext.replace(/\s?[\]\}\)]/g, ')')
-    ptext = ptext.replace(/["“”‘’]/g, "'") // all quotes to single straight quotes
-    ptext = ptext.replace(/\s+/g, ' ').trim() // collapse whitespace
-    const sinhala = ptext.replace(/\u200d/g, '') // remove yansa, rakar, bandi
+export function normalizePrompt(text, type) {
+    text = text.replace(/[\[\{\(]\s?/g, '(') // only the normal bracket is supported
+    text = text.replace(/\s?[\]\}\)]/g, ')')
+    text = text.replace(/["“”‘’]/g, "'") // all quotes to single straight quotes
+    // if a speaker encoding is used to denote various chanting styles, remove the type checks below
+    text = text.replace(/\n/g, type == 'gatha' ? ' x ' : '. ') // newlines cause issues in displaying text
+    //if (e.type == 'heading') text = text + '~' // headings are long chanted at the end. use ~ for longing
+    text = text.replace(/\s+/g, ' ').trim() // collapse whitespace
+    const sinhala = text.replace(/\u200d/g, '') // remove yansa, rakar, bandi
     const roman = sinhalaToRomanConvert(sinhala)
     return {sinhala, roman}
 }

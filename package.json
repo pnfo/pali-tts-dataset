@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@pnfo/singlish-search": "^1.2.0",
+    "@pnfo/singlish-search": "^1.2.4",
     "async": "^3.2.4",
     "json-beautify": "^1.1.1",
     "lodash": "^4.17.21"
