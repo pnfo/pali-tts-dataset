@@ -89,21 +89,27 @@ const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRati
 outlierRemoved.sort((a, b) => a.score - b.score) // ascending order of the score
 const outlierLength = outlierRemoved.reduce((acc, e) => acc + e.label.length, 0)
 
-const requiredLength = 20 * 3600,  // collect until this many hours are reached
-    wavFileOffset = 1000 // allow 1000 from the multi-speaker.js
-let collectedLength = 0
+const requiredLength = 18 * 3600,  // collect until this many hours are reached
+    wavFileOffset = 1000, // allow 1000 from the multi-speaker.js
+    maxAllowed = { gatha: 0.3, centered: 0.1, heading: 0.1 } // otherwise too many gatha/headings will be selected since they are the short entries
+let collectedLength = 0, collectedCount = { total: 0, }
+const canCollect = (type) => (maxAllowed[type] || 1) > (collectedCount[type] || 0) / (collectedCount.total || 1)
+
 const usedEntries = outlierRemoved.filter((e, i) => {
+    if (!canCollect(e.type) || collectedLength > requiredLength) return false
     collectedLength += e.label.length
-    e.wavFile = 'pali_' + (i + wavFileOffset).toString().padStart(4, '0')
-    return collectedLength <= requiredLength
+    collectedCount[e.type] = (collectedCount[e.type] || 0) + 1
+    collectedCount.total++
+    return true
 })
-usedEntries.sort((a, b) => a.lengthRatio - b.lengthRatio)
+usedEntries.sort((a, b) => a.lengthRatio - b.lengthRatio).forEach((e, i) => e.wavFile = 'pali_' + (i + wavFileOffset).toString().padStart(4, '0'))
 
 const extractAudio = true
 if (extractAudio) {
     // extract content from audio files
     // trim all silences more than 0.75 seconds, normalize and set rate (original flac is 44100)
-    const outputFolder = 'wavs', outputOptions = 'silence -l 1 0.1 1% -1 0.75 1% reverse silence 1 0.1 1% reverse rate 22050 norm -1' //rate 22050 before norm
+    // silence -l 1 0.1 1% -1 0.75 1% reverse silence 1 0.1 1% reverse
+    const outputFolder = 'wavs', outputOptions = 'rate 22050 norm -1' //rate 22050 before norm
     // do not delete output folder since we have to append to existing samples from multi-speaker
 
     const extractSegment = (e, callback) => { // Define the function that will extract a single segment

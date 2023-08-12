@@ -45,7 +45,7 @@ function loadSpeaker(speaker, indexOffset) {
             if (index != prompt.index) console.error(`prompt index ${prompt.index} does not match the label index ${index}`)
             const {sinhala, roman} = normalizePrompt(prompt.text, prompt.type), audioInd = index + indexOffset, lengthRatio = length / roman.replace(/h/g, '').length
             entries.push({ audioInd, roman, sinhala, speaker: g.speaker, start, end, length, 
-                lengthRatio, file: g.file, wavFile: `sinh_${String(audioInd).padStart(4, '0')}` })
+                lengthRatio, file: g.file, wavFile: `pali_${String(audioInd).padStart(4, '0')}` })
         })
     })
     console.log(`total ${entries.length} labels loaded for speaker ${speaker}`)
