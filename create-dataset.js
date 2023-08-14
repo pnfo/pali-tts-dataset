@@ -16,7 +16,7 @@ const labelInputFolder = '/Users/janaka/node/tipitaka.lk/dev/audio', // also in 
     audioInputFolder = '/Volumes/1TB/audio/silence-added'
 const minClipLength = 2, maxClipLength = 15
 // TODO: ap- should not have any gatha, force set to para/default - but dhs was 
-const forceTypeNoGatha = /^(ap-dhs)/g
+const forceTypeNoGatha = /^(ap-dhs)/g, excludeFiles = /^ap-yam/
 
 const fileMap = JSON.parse(fs.readFileSync(fileMapFile, 'utf-8'))
 
@@ -43,6 +43,7 @@ const wordCounts = {}, dedupList = {}
 let totalLabels = 0, totalLength = 0
 const usableEntries = []
 Object.entries(fileMap).forEach(([textFile, labelFiles]) => {
+    if (excludeFiles.test(textFile)) return
     const entries = [], labels = []
     labelFiles.forEach(lf => labels.push(...loadLabelFile(lf)))
     JSON.parse(fs.readFileSync(path.join(textInputFolder, textFile + '.json'), 'utf-8')).pages.forEach(page => entries.push(...page.pali.entries))
@@ -89,7 +90,7 @@ const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRati
 outlierRemoved.sort((a, b) => a.score - b.score) // ascending order of the score
 const outlierLength = outlierRemoved.reduce((acc, e) => acc + e.label.length, 0)
 
-const requiredLength = 18 * 3600,  // collect until this many hours are reached
+const requiredLength = 14 * 3600,  // collect until this many hours are reached
     wavFileOffset = 1000, // allow 1000 from the multi-speaker.js
     maxAllowed = { gatha: 0.3, centered: 0.1, heading: 0.1 } // otherwise too many gatha/headings will be selected since they are the short entries
 let collectedLength = 0, collectedCount = { total: 0, }
@@ -108,8 +109,7 @@ const extractAudio = true
 if (extractAudio) {
     // extract content from audio files
     // trim all silences more than 0.75 seconds, normalize and set rate (original flac is 44100)
-    // silence -l 1 0.1 1% -1 0.75 1% reverse silence 1 0.1 1% reverse
-    const outputFolder = 'wavs', outputOptions = 'rate 22050 norm -1' //rate 22050 before norm
+    const outputFolder = 'wavs', outputOptions = 'silence -l 1 0.1 1% -1 0.75 1% reverse silence 1 0.1 1% reverse rate 22050 norm -1' //rate 22050 before norm
     // do not delete output folder since we have to append to existing samples from multi-speaker
 
     const extractSegment = (e, callback) => { // Define the function that will extract a single segment
@@ -140,7 +140,7 @@ fs.writeFileSync('char-counts.tsv', Object.entries(charCountsRoman)
     .sort((a, b) => b[1] - a[1])
     .map(([char, count]) => char + '\t' + count)
     .join('\n'), 'utf-8')
-fs.appendFileSync('metadata.csv', '\n' + usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker].join('|')).join('\n'), 'utf8')
+fs.appendFileSync('metadata.csv', '\n' + usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker, e.type].join('|')).join('\n'), 'utf8')
 fs.writeFileSync('word-counts.tsv', Object.entries(wordCounts).map(([word, count]) => word + '\t' + count).join('\n'), 'utf-8')
 fs.writeFileSync('text-entries.json', jsb(usedEntries, null, '\t', 100), 'utf-8')
 

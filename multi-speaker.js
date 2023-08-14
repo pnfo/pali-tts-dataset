@@ -41,10 +41,10 @@ function loadSpeaker(speaker, indexOffset) {
     }).sort((a, b) => a.startI - b.startI)
     .forEach(g => {
         g.labels.forEach(({start, end, length, index}, i) => {
-            const prompt = g.prompts[i]
+            const prompt = g.prompts[i], type = prompt.type
             if (index != prompt.index) console.error(`prompt index ${prompt.index} does not match the label index ${index}`)
-            const {sinhala, roman} = normalizePrompt(prompt.text, prompt.type), audioInd = index + indexOffset, lengthRatio = length / roman.replace(/h/g, '').length
-            entries.push({ audioInd, roman, sinhala, speaker: g.speaker, start, end, length, 
+            const {sinhala, roman} = normalizePrompt(prompt.text, type), audioInd = index + indexOffset, lengthRatio = length / roman.replace(/h/g, '').length
+            entries.push({ audioInd, roman, sinhala, speaker: g.speaker, start, end, length, type,
                 lengthRatio, file: g.file, wavFile: `pali_${String(audioInd).padStart(4, '0')}` })
         })
     })
@@ -98,7 +98,7 @@ usedEntries.forEach(e => {
 //     .map(([char, count]) => char + '\t' + count)
 //     .join('\n'), 'utf-8')
 
-fs.writeFileSync('metadata.csv', usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker].join('|')).join('\n'), 'utf8')
+fs.writeFileSync('metadata.csv', usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker, e.type].join('|')).join('\n'), 'utf8')
 
 // logging stats
 const log = (stat, count, duration) => console.log(`${stat} labels => count: ${count}, length: ${(duration / 3600).toFixed(1)} hours, average length: ${(duration / count).toFixed(2)}`)

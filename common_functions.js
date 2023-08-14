@@ -21,7 +21,7 @@ export function normalizePrompt(text, type) {
     text = text.replace(/["“”‘’]/g, "'") // all quotes to single straight quotes
     // if a speaker encoding is used to denote various chanting styles, remove the type checks below
     text = text.replace(/\n/g, type == 'gatha' ? ' x ' : '. ') // newlines cause issues in displaying text
-    //if (e.type == 'heading') text = text + '~' // headings are long chanted at the end. use ~ for longing
+    if (type == 'heading') text = text + 'z' // headings are long chanted at the end. use z for longing
     text = text.replace(/\s+/g, ' ').trim() // collapse whitespace
     const sinhala = text.replace(/\u200d/g, '') // remove yansa, rakar, bandi
     const roman = sinhalaToRomanConvert(sinhala)
