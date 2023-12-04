@@ -14,7 +14,7 @@ const labelInputFolder = '/Users/janaka/node/tipitaka.lk/dev/audio', // also in 
     textInputFolder = '/Users/janaka/node/tipitaka.lk/public/static/text',
     fileMapFile = '/Users/janaka/node/tipitaka.lk/public/static/data/file-map.json',
     audioInputFolder = '/Volumes/1TB/audio/silence-added'
-const minClipLength = 2, maxClipLength = 15
+const minClipLength = 2, maxClipLength = 24
 // TODO: ap- should not have any gatha, force set to para/default - but dhs was 
 const forceTypeNoGatha = /^(ap-dhs)/g, excludeFiles = /^ap-yam/
 
@@ -90,9 +90,9 @@ const outlierRemoved = usableEntries.sort((a, b) => a.lengthRatio - b.lengthRati
 outlierRemoved.sort((a, b) => a.score - b.score) // ascending order of the score
 const outlierLength = outlierRemoved.reduce((acc, e) => acc + e.label.length, 0)
 
-const requiredLength = 14 * 3600,  // collect until this many hours are reached
+const requiredLength = 30 * 3600,  // collect until this many hours are reached
     wavFileOffset = 1000, // allow 1000 from the multi-speaker.js
-    maxAllowed = { gatha: 0.3, centered: 0.1, heading: 0.1 } // otherwise too many gatha/headings will be selected since they are the short entries
+    maxAllowed = { gatha: 0.2, centered: 0.05, heading: 0.1 } // otherwise too many gatha/headings will be selected since they are the short entries
 let collectedLength = 0, collectedCount = { total: 0, }
 const canCollect = (type) => (maxAllowed[type] || 1) > (collectedCount[type] || 0) / (collectedCount.total || 1)
 
@@ -136,14 +136,17 @@ usedEntries.forEach(e => {
 })
 const usedLength = usedEntries.reduce((acc, e) => acc + e.label.length, 0)
 
-fs.writeFileSync('char-counts.tsv', Object.entries(charCountsRoman)
-    .sort((a, b) => b[1] - a[1])
-    .map(([char, count]) => char + '\t' + count)
-    .join('\n'), 'utf-8')
-fs.appendFileSync('metadata.csv', '\n' + usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker, e.type].join('|')).join('\n'), 'utf8')
-fs.writeFileSync('word-counts.tsv', Object.entries(wordCounts).map(([word, count]) => word + '\t' + count).join('\n'), 'utf-8')
-fs.writeFileSync('text-entries.json', jsb(usedEntries, null, '\t', 100), 'utf-8')
+if (extractAudio) {
+    fs.writeFileSync('char-counts.tsv', Object.entries(charCountsRoman)
+        .sort((a, b) => b[1] - a[1])
+        .map(([char, count]) => char + '\t' + count)
+        .join('\n'), 'utf-8')
+    fs.appendFileSync('metadata.csv', '\n' + usedEntries.map(e => [e.wavFile, e.roman, e.sinhala, e.speaker, e.type].join('|')).join('\n'), 'utf8')
+    fs.writeFileSync('word-counts.tsv', Object.entries(wordCounts).map(([word, count]) => word + '\t' + count).join('\n'), 'utf-8')
+    fs.writeFileSync('text-entries.json', jsb(usedEntries, null, '\t', 100), 'utf-8')
+}
 
+console.log(`Max clip length: ${maxClipLength} seconds. Min clip length: ${minClipLength} seconds`)
 const log = (stat, count, duration) => console.log(`${stat} labels => count: ${count}, length: ${(duration / 3600).toFixed(1)} hours, average length: ${(duration / count).toFixed(2)}`)
 log('Total', totalLabels, totalLength)
 log('Usable', outlierRemoved.length, outlierLength)
